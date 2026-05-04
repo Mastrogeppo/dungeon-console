@@ -50,7 +50,7 @@ with col_pg:
         
         if st.button(f"🎮 Gestisci {pg}"):
             st.session_state.caster = pg
-            st.switch_page("1_Console.py")
+            st.switch_page(1_Console.py)
 
 with col_png:
     st.markdown("<h3 class='nome-png'>ALLEATI (PNG)</h3>", unsafe_allow_html=True)
@@ -78,4 +78,4 @@ with c2:
 
 with c3:
     if st.button("⚔️ VAI ALLA CONSOLE"):
-        st.switch_page("1_Console.py")
+        st.switch_page(1_Console.py)
