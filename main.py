@@ -104,5 +104,5 @@ with c3:
         if st.session_state.caster == "Nessuno":
             st.error("Seleziona un Caster prima!")
         else:
-            st.switch_page("pages/1_Console.py")
+            st.switch_page("1_Console.py")
 
