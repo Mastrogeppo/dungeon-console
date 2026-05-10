@@ -69,7 +69,7 @@ with col_pg:
         
         if st.button(f"🎮 Gestisci {pg}", use_container_width=True):
             st.session_state.caster = pg
-            st.switch_page("pages/1_Console.py") # Assicurati che il path sia corretto
+            st.switch_page("1_Console.py") # Assicurati che il path sia corretto
 
 with col_png:
     st.markdown("<h3 class='nome-png'>ALLEATI (PNG)</h3>", unsafe_allow_html=True)
